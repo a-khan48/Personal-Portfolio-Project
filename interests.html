@@ -13,12 +13,38 @@
                 body{
             background: black;
         }
+
+        .content-title-1{
+          margin-top: 9rem;
+          margin-bottom: 1rem;
+        }
+
+
+        .align{
+          display: flex;
+          justify-content: space-between;
+        }
+
+        .robophotos{
+          display: flex;
+          justify-content: space-between;
+        }
+
+  @media screen and (max-width: 768px) {
+
+    .align{
+      display: inline;
+      margin-top: 3rem;
+    }
+
+    
+  }
     </style>
 </head>
 <body>
     
 
-    <nav class="navbar navbar-expand-lg bg-black navbar-dark p-3 shadow-sm text-white">
+    <nav class="navbar navbar-expand-lg bg-black sticky-top navbar-dark p-3 shadow-sm text-white">
         <div class="container-fluid">
           <a class="navbar-brand text-white" href="index.html">AKhan</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -36,11 +62,118 @@
               <li class="nav-item">
                 <a class="nav-link text-white" href="interests.html">Interests</a>
               </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="contact.html">Contact</a>
+              </li>
             </ul>
             <form class="d-flex" role="search">
           </div>
         </div>
       </nav>
+
+      <header>
+        <div class="head">
+            <h1 class="h1-title">My Interests</h1>
+            <h2 class="h2-title" style="margin: 25px">Learn more about me!</h2>
+        </div>
+    </header>
+<hr>
+
+
+<div class="pets">
+      <div class="container pt-4">
+        <div class="content-title-1">
+          <h2 class="h3-title">My Pets:</h2>
+        </div>
+      <div class="row">
+        <div class="align">
+          <div class="col-md-3">
+              <div class="card">
+                  <img src="images/jasper-booger.jpg" alt="my cat jasper" class="card-img-bottom" style="width: auto; height: auto; ">
+              </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card">
+                <img src="images/pepper.jpg" alt="my cat pepper" class="card-img-bottom" style="width: auto; height: auto; ">
+            </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card">
+              <img src="images/mushu.jpg" alt="my lizard mushu" class="card-img-bottom" style="width: auto; height: auto; ">
+          </div>
+        </div>
+      </div>
+      <div class="card-body pt-4 text-white">
+        <h4 class="card-text" style="line-height: 1.5; text-align: center;">
+          As you’ve seen on my home page, I have a cat named Jasper, a tabby cat. <br>
+          But what you may not know is that I also have another cat named Pepper, a tuxedo cat. <br>
+          Both Jasper and Pepper are very cute cats and I love them a lot. <br> I also have a lizard named Mushu, 
+          she’s a bearded dragon and she likes to run around a lot.
+        </h4>
+        </div> 
+    </div>
+  </div>
+
+    <div class="Cars">
+      <h2 class="h2-text-1">Cars:</h2>
+        <div class="container pt-4">
+        <div class="col-md-8">
+          <div class="card">
+            <img src="Images/bmw.jpg" alt="my car" >
+          </div>
+          <div class="card-body pt-4 text-white">
+            <h4 class="card-text" style="line-height: 1.5">
+              I am an avid car enthusiast, being around friends and family that were interested in cars, I became interested at a very young age myself.
+            </h4>
+            <h4 class="card-text" style="line-height: 1.5">
+              I bought my first car, a 2002 bmw 530i only a month ago and I’ve been having a lot of fun with it.
+            </h4>
+              <h4 class="card-text" style="line-height: 1.5">
+              It’s a 5 speed manual with 220,000 miles, and even with all the miles it has, it still runs and drives surprisingly smooth. 
+            </h4>
+        </div>
+        </div>
+      </div>
+      </div>
+      </div>
+
+  <div class="Robotics">
+  <h2 class="h2-text-1">Robotics:</h2>
+  <div class="container pt-4">
+    <div class="row">
+      <div class="align">
+  <div class="col-md-6">
+    <div class="card">
+      <img src="Images/robo1.JPG" alt="Team Photo" >
+    </div>
+    <div class="col-md-8">
+      <div class="card">
+        <img src="Images/robo3.JPG" alt="Robot photo" >
+    </div>
+    </div>
+  </div>
+    </div>
+  </div>
+
+    <div class="card-body pt-4 text-white">
+      <h4 class="card-text" style="line-height: 1.5">
+        I was a student with team Bots on Wheels 4290, a First Robotics team here in Charlotte, North Carolina. 
+      </h4>
+      <h4 class="card-text" style="line-height: 1.5">
+        I have since graduated in 2022, but I am still very interested in both First Robotics and my team Bots on Wheels.
+      </h4> 
+      <h4 class="card-text" style="line-height: 1.5">
+        I have made many great memories and friends being a part of this team and I look forward to seeing their success in future FRC seasons.  
+      </h4>
+  </div>
+  </div>
+</div>
+</div>
+</div>
+</div>
+
+
+
 
 
 
