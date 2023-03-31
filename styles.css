@@ -11,6 +11,12 @@
     font-family: 'Sen', sans-serif;
 }
 
+.head{
+    animation: animate__fadeInDown;
+    animation-fill-mode: backwards;
+    animation-duration: 2s;
+}
+
 
 .h1-title{
     position: relative;
