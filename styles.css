@@ -9,10 +9,19 @@
 
 .navbar{
     font-family: 'Sen', sans-serif;
+    animation: fadeInDown;
+    animation-duration: 2s;
 }
 
 .head{
-    animation: animate__fadeInDown;
+    animation: fadeIn;
+    animation-fill-mode: backwards;
+    animation-duration: 2s;
+    animation-delay: .5s;
+}
+
+.footer{
+    animation: fadeInUp;
     animation-fill-mode: backwards;
     animation-duration: 2s;
 }
