@@ -34,3 +34,17 @@
     font-weight: 500;
     color: white;
 }
+
+.navbar-nav > li > .dropdown-menu-dark { background-color: black; }
+
+.footer{
+    font-family: 'Sen', sans-serif;
+}
+
+@media screen and (max-width: 768px) {
+   .abouttext{
+
+    margin-top: 100px;
+   } 
+
+}
