@@ -1,0 +1,36 @@
+/* IMPORTS */
+
+@import url('https://fonts.googleapis.com/css2?family=Sen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sen:wght@400;700&display=swap');
+
+/* IMPORTS */
+
+/* STYLES */
+
+.navbar{
+    font-family: 'Sen', sans-serif;
+}
+
+.h1-title{
+    position: relative;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: 'Sen', sans-serif;
+    font-size: 7vw;
+    line-height: 0.9;
+    font-weight: 500;
+    text-align: center;
+    color: white;
+    z-index: 1;
+    margin:auto
+}
+
+.aboutme{
+    position: relative;
+    margin: 15px;
+    font-family: 'Sen', sans-serif;
+    font-size: 5vw;
+    line-height: 0.9;
+    font-weight: 500;
+    color: white;
+}
